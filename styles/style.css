@@ -1,0 +1,136 @@
+b*{
+	box-sizing: border-box;
+}
+body{
+	background-color: #f6f6f6;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.header{
+    position: absolut;
+    left: 163px;
+	width: 1280px;
+	height: 89px;
+	background-color:#313030;
+	display: flex;
+	flex-direction: column;
+    align-items:center;
+    margin-top: 29px;
+    position: absolute;  
+
+}
+
+.nav {
+    margin-top: 29px;
+    background-color: rgba(3, 0, 0, 0);
+    margin-bottom: 101px;
+    display:flex;
+    flex-direction: row;
+    width: 750px;
+    justify-content: space-between;
+}
+
+.nav-link {
+    text-decoration: none;
+    color:white;
+    flex-direction: column;
+
+    align-items:center;
+}
+
+.nav {
+    margin-top: 36px;
+    background-color: rgba(3, 0, 0, 0);
+    margin-bottom: 95px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+}
+
+.nav-link {
+    
+    color:white;
+    text-transform: uppercase; 
+    font-weight: bold;
+    font-size: 14px;
+        
+}
+
+.card{
+   display:flex;
+   flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    width: 1253px;
+    height: 359px;
+}
+
+p{
+	margin-top: 0px;
+	margin-bottom: 0;
+}
+.card-product{
+    display: inline-block;
+    transform: translate(50%, 50%);
+	margin-right: 163px;
+	width: 554px;
+    height: 359px;
+	vertical-align: top;
+}
+img{
+	width: 100%;
+	height: 100%;
+    object-fit: cover;
+    margin-left:80px;
+}
+.card{
+	position: absolute;
+	width: 1253px;
+    height: 359px;
+    margin-bottom:110px;
+ 
+}
+.description{
+	display: inline-block;
+	width: 400px;
+	margin-left: 160px;
+    margin-top: 90px;
+    margin-right:80px;
+	vertical-align: top;
+    font-size: 15px;
+    transform: translate(-50%, -50%);
+}
+button{
+	width: 227px;
+	height: 55px;
+	background-color: #FF2D2D;
+	color: #fff;
+	text-align: center;
+	line-height:50px;
+	border: none;
+    outline: none;
+    margin-top: 63px;
+}
+.description .card-name{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 72px;
+    margin-bottom: 36px;
+    /* or 120% */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 1.5px;
+
+.msg{
+	margin-top: 36px;
+    margin-bottom: 55px;
+    font-size: 15.9953px;
+    line-height: 28px;
+    /* or 175% */
+
+    display: flex;
+    align-items: center;
+
+    }
