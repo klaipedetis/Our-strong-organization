@@ -132,15 +132,25 @@ body {
 }
 .services{
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
 }
 .services-item{
     display: flex;
+   
+    flex: 1 1 288px;
+    width: 288px;
+    margin-right: 33px;
+    margin-bottom: 56px;
     flex-direction: column;
     justify-content: flex-start;
 }
+
 .services-img{
     margin-bottom: 30px;
 }
+
 .services-title{
     font-weight: 600;
     font-size: 24.0692px;
