@@ -234,3 +234,40 @@ margin-bottom: 59px;
     height: 300;
     width: 305px;
 }
+/*team section*/
+
+.team-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 68px;
+}
+.team-title{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 41.9876px;
+    line-height: 0px;
+
+    text-align: center;
+    letter-spacing: 0.3834px;
+    text-transform: uppercase;
+    margin-bottom: 31px;
+
+}
+.team-section{
+    margin-top: 115px;
+}
+.team-description{
+    font-weight: bold;
+    font-size: 15.9953px;
+    line-height: 28px;
+    /* or 175% */
+    width: 490px;
+
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+
+}
+
