@@ -1,6 +1,6 @@
 body {
     box-sizing: border-box;
-    margin:0;
+    margin: 0;
     padding: 0;
     font-family: "Open Sans", sans-serif;
 }
@@ -200,74 +200,134 @@ body {
     margin: auto;
     margin-bottom: 33px;
 }
-.features-line{
-    margin-bottom:86px ;
+
+.features-line {
+    margin-bottom: 86px;
 }
-.features-menu{
-    display:flex;
+
+.features-menu {
+    display: flex;
     justify-content: space-around;
     align-items: center;
     font-weight: 600;
-font-size: 22px;
-line-height: 24px;
-
-letter-spacing: 0.22px;
-text-transform: uppercase;
-margin-bottom: 59px;
-
+    font-size: 22px;
+    line-height: 24px;
+    letter-spacing: 0.22px;
+    text-transform: uppercase;
+    margin-bottom: 59px;
 }
-.features-menu a{
+
+.features-menu a {
     text-decoration: none;
-    
-}   
-.features-gallery{
-    display:flex;
+}
+
+.features-menu a:hover{
+    color: #FF2D2D;
+}
+.features-gallery {
+    display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.features-gallery-img{
-      margin-bottom: 18px;
-     
-    
+
+.features-gallery-img {
+    margin-bottom: 18px;
 }
-.gallery-img{
+
+.gallery-img {
     height: 300;
     width: 305px;
 }
+
 /*team section*/
 
-.team-text{
+.team-text {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     margin-bottom: 68px;
 }
-.team-title{
+
+.team-title {
     display: flex;
     align-items: center;
     font-weight: bold;
     font-size: 41.9876px;
     line-height: 0px;
-
     text-align: center;
     letter-spacing: 0.3834px;
     text-transform: uppercase;
     margin-bottom: 31px;
-
 }
-.team-section{
+
+.team-section {
     margin-top: 115px;
 }
-.team-description{
+
+.team-description {
     font-weight: bold;
     font-size: 15.9953px;
     line-height: 28px;
     /* or 175% */
     width: 490px;
-
     display: flex;
     align-items: center;
     margin-bottom: 32px;
-
 }
 
+/* team leaders*/
+
+.team-section {
+    margin-bottom: 103px;
+}
+
+.team-group {
+    
+}
+
+.team-colleague>img {
+    display: flex;
+    justify-content: space-between;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    width: 323px;
+    height: 457px;
+}
+.team-colleague{
+    display:flex;
+    justify-content: space-between;
+
+}
+.colleagues-text{
+    display: flex;
+}
+.colleague-title{
+    font-weight: 600;
+    font-size: 30.127px;
+    line-height: 0px;
+    letter-spacing: 0.275265px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.colleague-description{
+    font-weight: bold;
+    font-size: 15.9953px;
+    line-height: 28px;
+    width: 612px;
+    margin-bottom: 46px;
+}
+.menu{
+    display: flex;
+    justify-content: flex-start;    
+    margin-bottom: 62px;
+}
+.menu a{
+    font-style: italic;
+    font-size: 18px;
+    line-height: 24px;
+    margin-right: 34px;
+    text-decoration: none;
+    color: #000000;
+
+}
