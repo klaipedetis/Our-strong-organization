@@ -97,7 +97,6 @@ body {
     border-radius: 2px;
 }
 
-
 .advantage-block {
     margin-top: 55px;
     margin-bottom: 53px;
@@ -404,7 +403,7 @@ body {
     justify-content: center;
 }
 
-#email{
+#email {
     margin-right: 19px;
 }
 
@@ -414,4 +413,104 @@ body {
     line-height: 34px;
     letter-spacing: 0.317046px;
     text-transform: uppercase;
+}
+
+/* messaging area */
+
+.messaging {
+    margin: auto;
+}
+
+.messaging-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 82px;
+    margin-bottom: 107px;
+}
+
+.messaging-block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.messaging-title {
+    font-weight: bold;
+    font-size: 41.9876px;
+    line-height: 0px;
+    /* or 0% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.3834px;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+}
+
+.messaging-text {
+    font-weight: bold;
+    font-size: 15.9953px;
+    line-height: 28px;
+    /* or 175% */
+    display: flex;
+    align-items: center;
+    max-width: 752px;
+    margin-bottom: 58px;
+}
+
+.messaging-block>img {
+    margin-bottom: 73px;
+}
+
+/* messaging-form area*/
+
+.messaging-field>fieldset {
+    border: none;
+}
+
+#messaging-name {
+    width: 339px;
+    height: 69px;
+    background: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.1;
+    border-radius: 5px;
+    margin-right: 52px;
+}
+
+#messaging-email {
+    width: 339px;
+    height: 69px;
+    background: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.1;
+    border-radius: 5px;
+    margin-bottom: 42px;
+}
+
+#messaging-area {
+    background: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.1;
+    border-radius: 5px;
+    margin-bottom: 43px;
+}
+
+.messaging-btn {
+    width: 731px;
+    
+    font-size: 18px;
+   text-transform: uppercase;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0.3px;
+    text-align: center;
+}
+
+.contacts-block {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    color: #fff;
+    background-color: #000;
+    margin-left: 82px;
 }
