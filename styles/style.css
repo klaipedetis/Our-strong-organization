@@ -357,7 +357,7 @@ body {
 /* subscribe section */
 
 .subscribe {
-    min-width: 100%;
+    max-width: 100%;
     height: 516px;
     background-color: #2C2C2C;
     margin-bottom: 106px;
@@ -418,20 +418,29 @@ body {
 /* messaging area */
 
 .messaging {
-    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin:0;
+    margin-bottom: 107px;
 }
 
 .messaging-wrapper {
     display: flex;
     justify-content: flex-end;
-    margin-right: 82px;
-    margin-bottom: 107px;
+    align-items: flex-end;
+    position:relative;
+   
+    margin-left: auto;
+    
 }
 
 .messaging-block {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    
+    width: 765px;
+    margin-right:72px;
 }
 
 .messaging-title {
@@ -497,20 +506,89 @@ body {
 
 .messaging-btn {
     width: 731px;
-    
+
     font-size: 18px;
-   text-transform: uppercase;
+    text-transform: uppercase;
     font-weight: 700;
     line-height: 34px;
     letter-spacing: 0.3px;
     text-align: center;
 }
 
-.contacts-block {
+.contacts-wrapper {
+    height: 481px;
     display: flex;
     flex-direction: column;
     align-items: left;
     color: #fff;
     background-color: #000;
-    margin-left: 82px;
+    width: 46vw;
+}
+
+.contact-block {
+    display: block;
+    padding-top: 139px;
+    padding-bottom: 139px;
+    padding-right: auto;
+    padding-left: 79px;
+}
+
+.contacts-title{
+
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0.3x;
+    text-align: left;
+    text-transform: uppercase;
+
+}
+
+.contacts-adress {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+
+    display: flex;
+    align-items: center;
+}
+.contact-block a{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+/* footer */
+
+footer{
+   
+   
+    background-color: #000000;
+    color: #fff;
+}
+.footer-wrapper{
+    height: 113px;
+    width: 1250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.footer-wrapper>p{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 26px;
+    color: #B8B8B8; 
+}
+.social-link{
+    margin: 0 9px;
+}
+.social-link>img{
+    height: 33px;
+    width: 33px;
 }
