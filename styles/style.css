@@ -477,18 +477,26 @@ body {
 }
 
 #messaging-name {
-    width: 339px;
-    height: 69px;
+    width: 347px;
+    height: 71px;
     background: #000000;
     mix-blend-mode: normal;
     opacity: 0.1;
-    border-radius: 5px;
+    border-radius:5px;
     margin-right: 52px;
 }
+/* placeholder area
+
+
+::-webkit-input-placeholder { color: blue; }
+::-moz-placeholder          { color: blue; } /* Firefox 19+ */
+/*:-moz-placeholder           { color: blue; } /* Firefox 18- */
+/*:-ms-input-placeholder      { color: blue; }
+*/
 
 #messaging-email {
-    width: 339px;
-    height: 69px;
+    width: 347px;
+    height: 71px;
     background: #000000;
     mix-blend-mode: normal;
     opacity: 0.1;
