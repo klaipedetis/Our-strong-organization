@@ -420,7 +420,7 @@ body {
 .messaging {
     display: flex;
     justify-content: space-around;
-    margin:0;
+    margin: 0;
     margin-bottom: 107px;
 }
 
@@ -428,19 +428,19 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    position:relative;
-   
+    position: relative;
+
     margin-left: auto;
-    
+
 }
 
 .messaging-block {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    
+
     width: 765px;
-    margin-right:72px;
+    margin-right: 72px;
 }
 
 .messaging-title {
@@ -472,19 +472,20 @@ body {
 
 /* messaging-form area*/
 
-.messaging-field>fieldset {
+
+#messaging-field>fieldset{
     border: none;
 }
-
 #messaging-name {
+    border: none;
+    background: rgba(0, 0, 0, 0.1);
+
     width: 347px;
     height: 71px;
-    background: #000000;
-    mix-blend-mode: normal;
-    opacity: 0.1;
-    border-radius:5px;
+    border-radius: 5px;
     margin-right: 52px;
 }
+
 /* placeholder area
 
 
@@ -495,25 +496,24 @@ body {
 */
 
 #messaging-email {
+    border: none;
+    background: rgba(0, 0, 0, 0.1);
     width: 347px;
     height: 71px;
-    background: #000000;
-    mix-blend-mode: normal;
-    opacity: 0.1;
     border-radius: 5px;
-    margin-bottom: 42px;
 }
 
 #messaging-area {
-    background: #000000;
-    mix-blend-mode: normal;
-    opacity: 0.1;
+    border: none;
+    background: rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     margin-bottom: 43px;
+    margin-top: 46px;
+
 }
 
 .messaging-btn {
-    width: 731px;
+    width: 742px;
 
     font-size: 18px;
     text-transform: uppercase;
@@ -528,7 +528,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: left;
-    color: #fff;
+    align-items: flex-end color: #fff;
     background-color: #000;
     width: 46vw;
 }
@@ -537,11 +537,11 @@ body {
     display: block;
     padding-top: 139px;
     padding-bottom: 139px;
-    padding-right: auto;
     padding-left: 79px;
+    color: #fff;
 }
 
-.contacts-title{
+.contacts-title {
 
     font-size: 18px;
     font-weight: 700;
@@ -561,7 +561,8 @@ body {
     display: flex;
     align-items: center;
 }
-.contact-block a{
+
+.contact-block a {
     font-weight: bold;
     font-size: 16px;
     line-height: 28px;
@@ -573,13 +574,14 @@ body {
 
 /* footer */
 
-footer{
-   
-   
+footer {
+
+
     background-color: #000000;
     color: #fff;
 }
-.footer-wrapper{
+
+.footer-wrapper {
     height: 113px;
     width: 1250px;
     display: flex;
@@ -587,16 +589,20 @@ footer{
     align-items: center;
     margin: auto;
 }
-.footer-wrapper>p{
+
+.footer-wrapper>p {
     font-weight: bold;
     font-size: 16px;
     line-height: 26px;
-    color: #B8B8B8; 
+    color: #B8B8B8;
 }
-.social-link{
+
+.social-link {
     margin: 0 9px;
+    text-decoration: none;
 }
-.social-link>img{
+
+.social-link>img {
     height: 33px;
     width: 33px;
 }
