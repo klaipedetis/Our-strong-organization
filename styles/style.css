@@ -54,6 +54,8 @@ body {
 .intro {
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 102px;
 }
 
 .intro-text {
@@ -82,7 +84,7 @@ body {
     height: 359px;
     width: 554px;
     background-color: #ff2222;
-    margin-bottom: 102px;
+    
 }
 
 .button {
