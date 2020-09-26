@@ -577,15 +577,12 @@ body {
 /* footer */
 
 footer {
-
-
     background-color: #000000;
     color: #fff;
 }
 
 .footer-wrapper {
-    height: 113px;
-    width: 1250px;
+   
     display: flex;
     justify-content: space-between;
     align-items: center;
