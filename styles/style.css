@@ -602,10 +602,11 @@ footer {
     height: 33px;
     width: 33px;
 }
-@media screen and (max-width: 970px;){
+@media screen and (max-width: 970px){
     .container{
         max-width: 750px;
         flex-wrap: wrap;
+        margin: auto;
     }
     .intro{
         flex-wrap: wrap;
@@ -614,6 +615,55 @@ footer {
         font-size: 47px;
     }
     .intro-text{
+        margin-bottom: 72px;
+    }
+    .advantage-text{
+        margin-bottom: 72px;
+    
+    }
+    .team-container{
+        flex-wrap: wrap;
+    
+    }
+    .team-group{
+        flex-wrap: wrap;
+    }
+    .team-colleague>img{
+        margin-right: 72px;
+    }
+    .colleague-text{
+        flex-wrap: wrap;
+    }
+    .colleague-title{
+        font-size: 27px;
+    }
+    .colleague-description{
+        width: 100%;
+        margin-bottom: 23px;
+    }
+    .colleagues-gallery{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+
+    }
+    .team-img{
+        display: flex;
+        flex-wrap: wrap;
+        width: 150px;
+        height: 160px;
+        margin-bottom: 25px;
+    }
+    .subscribe-title{
+        font-size: 32px;
+    }
+    .messaging-wrapper{
+        justify-content: flex-start;
+        margin: auto;
+
+    }
+    .messaging-block{
         margin-bottom: 72px;
     }
 }
