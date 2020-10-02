@@ -602,11 +602,14 @@ footer {
     height: 33px;
     width: 33px;
 }
-@media screen and (max-width: 970px){
+@media (max-width: 850px){
+    body{
+        max-width: 100vw;
+    }
     .container{
-        max-width: 750px;
+        width: 750px;
         flex-wrap: wrap;
-        margin: auto;
+        margin:0 auto;
     }
     .intro{
         flex-wrap: wrap;
@@ -656,6 +659,7 @@ footer {
         margin-bottom: 25px;
     }
     .subscribe-title{
+        line-height: 55px;
         font-size: 32px;
     }
     .messaging-wrapper{
